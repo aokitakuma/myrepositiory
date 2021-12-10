@@ -74,6 +74,3 @@ img=Image("pairplot.png")
 ws=wb.worksheets[0]
 ws.add_image(img,"K2")
 wb.save(export_file_path+"/"+"coef_df.xlsx")
-
-#今ある技術でどれだけ様々なデータ(列が違ったり、行が違ったり)のグラフを表示できるかを試した
-#頑張ったところグラフの丁寧さ
